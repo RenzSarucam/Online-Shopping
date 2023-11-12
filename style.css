@@ -271,3 +271,54 @@ header.sticky{
     font-size: 14px;
     font-weight: 500;
 }
+/* contact-section*/
+
+.contact{
+    background-color: #f3f4f6;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+}
+.first-info img{
+    width: 140px;
+    height: auto;
+}
+.contact-info h4{
+    color: #212529;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact-info p{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+.contact-info p:hover{
+    color: #EE1C47;
+}
+.social-icon i{
+    color: #565656;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+}
+.social-icon i:hover{
+    transform: scale(1.3);
+}
+.end-text{
+    background-color: #edfff1;
+    text-align: center;
+    padding: 20px;
+}
+.end-text p{
+    color: #111;
+    text-transform: capitalize;
+}
